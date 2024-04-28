@@ -11,8 +11,8 @@ export default function MainPage(){
         <section className="relative flex flex-col items-center justify-between p-10 ">
             <img src={heroImage} alt="Hero" width={1672} height={495} className="absolute -top-[150px] z-0"/>
             <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-x-10 gap-y-8">
-                <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10 lg:pl-10 ">
-                    <h1 className="text-4xl font-bold leading-[3.2rem] text-white md:font-extrabold lg:text-[1.5rem] lg:leading-[3.5rem]">
+                <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 lg:pt-10 lg:pl-10 ">
+                    <h1 className="text-2xl font-bold leading-[3.2rem] text-white md:font-extrabold lg:text-[1.5rem] lg:leading-[3.5rem]">
                         Hello, This is {' '}
                         <span className="text-pink">{personalData.name}</span>
                     </h1>

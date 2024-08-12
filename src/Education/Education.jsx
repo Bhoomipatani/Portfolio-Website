@@ -14,8 +14,8 @@ function Education() {
         <div className="flex justify-center items-center flex-col">
             <div className="w-full lg:w-2/3">
                 {educations.map((education) => (
-                <div key={education.id} className="flex justify-center w-full bg-gradient-to-br from-bg_color_2 to-bg_color_3 border-button_color border-2 rounded-lg p-6 shadow-lg mb-8" >
-                    <div className="relative isolate flex flex-col gap-8 w-full">
+                <div key={education.id} className="flex justify-center w-full  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-10 hover:border-violet-500 duration-300  bg-gradient-to-br from-bg_color_2 to-bg_color_3 border-button_color border-2 rounded-lg p-6 shadow-lg mb-8" >
+                    <div className="relative isolate flex flex-col  gap-8 w-full">
                         <div className="flex flex-col w-full">
                             <p className="text-green text-center font-bold text-sm">{education.duration}</p>
                             <h2 className="text-2xl font-bold text-white mt-2">

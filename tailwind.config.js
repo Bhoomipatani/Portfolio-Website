@@ -13,7 +13,7 @@ export default {
         'blue':'#14aef7',
         'pink':'#f472b6',
         'green':'#00a67d',
-        'button_color':'#1a1443',
+        'button_color':'#261d5e',
         'boader_blue':'#1b2c68a0',
       },
     },

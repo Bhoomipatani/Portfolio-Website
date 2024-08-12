@@ -8,7 +8,7 @@ import heroImage from "/public/hero.svg"
 export default function MainPage(){
     
     return(
-        <section className="relative flex flex-col items-center justify-between p-10 ">
+        <section id="home" className="relative flex flex-col items-center justify-between p-10 ">
             <img src={heroImage} alt="Hero" width={1672} height={495} className="absolute -top-[150px] z-0"/>
             <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-x-10 gap-y-8">
                 <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 lg:pt-10 lg:pl-10 ">

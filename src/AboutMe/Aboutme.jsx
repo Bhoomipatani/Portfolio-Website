@@ -10,26 +10,25 @@ function Aboutme() {
         </span>
         <span className="w-screen h-[2px] bg-button_color"></span>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 px-32">
-        <div className="lg:col-span-1 flex justify-center items-center order-2">
-          <div className="w-auto h-60 relative">
-            <div className="w-[300px] h-80 bg-bg_color_1 rounded-full absolute filter blur-3xl -z-10 opacity-80"></div>
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-16 px-4 lg:px-56">
+        <div className="lg:col-span-2 flex flex-col justify-center order-2 lg:order-1">
+          <p className="text-gray-200 text-md lg:text-lg mb-4 lg:mb-0">
+            {personalData.description}
+          </p>
+        </div>
+        <div className="lg:col-span-1 flex justify-center items-center order-1 lg:order-2">
+          <div className="w-auto h-60 lg:h-80 relative">
+            <div className="w-[300px] h-80 lg:h-[300px] bg-bg_color_1 rounded-full absolute filter blur-3xl -z-10 opacity-80"></div>
             <img
               src={personalData.profile}
               alt="Bhoomi Patani"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full rounded-lg object-cover"
             />
-          </div>
-        </div>
-        <div className="lg:col-span-2 px-28 ">
-          <div className="flex flex-col justify-center h-full">
-            <p className="text-gray-200 text-md lg:text-lg mb-4 lg:mb-0">
-              {personalData.description}
-            </p>
           </div>
         </div>
       </div>
     </div>
+
   );
 }
 

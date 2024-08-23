@@ -21,23 +21,23 @@ export default function MainPage(){
                         {`I'm a Professional `}
                         <div className=" text-green"><TypedComponent></TypedComponent></div>
                     </h1>
-                    <div className="flex flex-row my-10 gap-5">
-                        <a href={personalData.github} className="transition-all text-gray-400 hover:scale-125 hover:text-white duration-300" target='_blank'>
+                    <div className="flex flex-row my-10 gap-5 z-50">
+                        <a href={personalData.github} className="transition-all text-gray-400 hover:scale-125 hover:text-white duration-300" >
                             <FaGithub className='size-8' />
                         </a>
-                        <a href={personalData.linkedIn} className="transition-all text-gray-400 hover:scale-125 hover:text-white duration-300" target='_blank'>
+                        <a href={personalData.linkedIn} className="transition-all text-gray-400 hover:scale-125 hover:text-white duration-300" >
                             <FaLinkedin className='size-8' />
                         </a>
-                        <a href={personalData.email} className="transition-all text-gray-400 hover:scale-125 hover:text-white duration-300" target='_blank'>
+                        <a href={personalData.email} className="transition-all text-gray-400 hover:scale-125 hover:text-white duration-300" >
                             <MdOutlineMail className='size-8' />
                         </a>
-                        <a href={personalData.leetcode} className="transition-all text-gray-400 hover:scale-125 hover:text-white duration-300" target='_blank'>
+                        <a href={personalData.leetcode} className="transition-all text-gray-400 hover:scale-125 hover:text-white duration-300" >
                             <SiLeetcode className='size-8' />
                         </a>
                         <a
                             className="inline-flex items-center gap-x-2 rounded-lg bg-gray-400 px-3 py-2 text-sm font-semibold shadow-sm hover:bg-white hover:scale-105 duration-300 "
                             href={personalData.resume}
-                            target='_blank'>
+                            >
                             Resume
                             <MdFileDownload className="-mr-0.5 h-5 w-5" aria-hidden="true" />
                         </a>

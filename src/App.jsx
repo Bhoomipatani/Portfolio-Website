@@ -9,7 +9,7 @@ import Footer from './Footer/Footer';
 function App() {
   return (
     
-    <div className="min-h-screen  bg-gradient-to-bl from-bg_color_1 via-[25%] to-bg_color_3 via-bg_color_2 overflow-hidden">
+    <div className="min-h-screen  bg-gradient-to-bl from-bg_color_1 via-[23%] to-bg_color_3 via-bg_color_2 overflow-hidden">
       <Navbar/>
       <MainPage/>
       <Skills/>

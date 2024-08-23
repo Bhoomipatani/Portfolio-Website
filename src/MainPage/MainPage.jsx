@@ -22,20 +22,20 @@ export default function MainPage(){
                         <div className=" text-green"><TypedComponent></TypedComponent></div>
                     </h1>
                     <div className="flex flex-row my-10 gap-5">
-                        <a href={personalData.github} className="transition-all text-gray-400 hover:scale-125 hover:text-pink duration-300" target='_blank'>
+                        <a href={personalData.github} className="transition-all text-gray-400 hover:scale-125 hover:text-white duration-300" target='_blank'>
                             <FaGithub className='size-8' />
                         </a>
-                        <a href={personalData.linkedIn} className="transition-all text-gray-400 hover:scale-125 hover:text-pink duration-300" target='_blank'>
+                        <a href={personalData.linkedIn} className="transition-all text-gray-400 hover:scale-125 hover:text-white duration-300" target='_blank'>
                             <FaLinkedin className='size-8' />
                         </a>
-                        <a href={personalData.email} className="transition-all text-gray-400 hover:scale-125 hover:text-pink duration-300" target='_blank'>
+                        <a href={personalData.email} className="transition-all text-gray-400 hover:scale-125 hover:text-white duration-300" target='_blank'>
                             <MdOutlineMail className='size-8' />
                         </a>
-                        <a href={personalData.leetcode} className="transition-all text-gray-400 hover:scale-125 hover:text-pink duration-300" target='_blank'>
+                        <a href={personalData.leetcode} className="transition-all text-gray-400 hover:scale-125 hover:text-white duration-300" target='_blank'>
                             <SiLeetcode className='size-8' />
                         </a>
                         <a
-                            className="inline-flex items-center gap-x-2 rounded-lg bg-gray-400 px-3 py-2 text-sm font-semibold shadow-sm hover:bg-pink hover:scale-105 duration-300 "
+                            className="inline-flex items-center gap-x-2 rounded-lg bg-gray-400 px-3 py-2 text-sm font-semibold shadow-sm hover:bg-white hover:scale-105 duration-300 "
                             href={personalData.resume}
                             target='_blank'>
                             Resume
@@ -75,13 +75,13 @@ export default function MainPage(){
                                 <span className="text-gray-400">{"', '"}</span>
                                 <span className="text-amber-300">Oracle Database</span>
                                 <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">Linux</span>
+                                <span className="text-amber-300">Python</span>
                                 <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">Jenkins</span>
+                                <span className="text-amber-300">AWS</span>
                                 <span className="text-gray-400">{"', '"}</span>
                                 <span className="text-amber-300">Oracle Cloud</span>
                                 <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">MySql</span>
+                                <span className="text-amber-300">MongoDb</span>
                                 <span className="text-gray-400">{"', '"}</span>
                                 <span className="text-amber-300">Spring Boot</span>
                                 <span className="text-gray-400">{"', '"}</span>

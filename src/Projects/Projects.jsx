@@ -22,7 +22,7 @@ function Projects() {
                 <div className="w-full h-0 pb-[100%] relative">
                   <img
                     src={project.image}
-                    alt={project.name}
+                    // alt={project.name}
                     className="absolute inset-0 w-full h-full object-cover rounded-lg"
                   />
                 </div>

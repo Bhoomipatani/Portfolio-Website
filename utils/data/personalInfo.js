@@ -5,12 +5,12 @@ export const personalData = {
     description: `
     <div class="text-left max-w-2xl mx-auto space-y-4">
       
-      <p class="text-gray-300 md:text-md lg:text-lg text-sm leading-relaxed">
+      <p class="text-gray-300 lg:text-lg text-md leading-relaxed">
         Hi! I’m <span class="text-pink-500 font-semibold">Bhoomi Patani ✌️ </span>, a Master’s student in Computer Science and an enthusiastic Full Stack Developer & DevOps Engineer.
         I love crafting <strong>resilient</strong>, <strong>scalable software solutions</strong> that simplify complex problems. With a foundation in <span class="text-blue-500">cloud technologies</span>,
         <span class="text-blue-500">microservices</span>, and <span class="text-blue-500">automation</span>, I’m passionate about optimizing workflows, securing applications, and bringing ideas to life.
       </p>
-      <p class="text-gray-300 md:text-md lg:text-lg text-sm leading-relaxed">
+      <p class="text-gray-300  lg:text-lg text-md leading-relaxed">
         💡 Whether it's building <strong>user-friendly interfaces</strong> or streamlining <strong>CI/CD pipelines</strong>, I’m driven by the power of technology to make an impact.
         I thrive in <span class="text-green">collaborative environments</span> and am always eager to take on new challenges that push me to grow and innovate.
       </p>

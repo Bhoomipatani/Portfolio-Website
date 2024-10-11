@@ -27,7 +27,7 @@ function ProjectCard({ project, index }) {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className={`flex flex-col lg:flex-row ${index % 2 !== 0 ? "lg:flex-row-reverse" : "" } gap-10 items-center space-y-4 lg:space-y-0  p-4 transition-transform duration-300 ease-in-out `}>
+    <div className={`flex flex-col lg:flex-row ${index % 2 !== 0 ? "lg:flex-row-reverse" : "" } lg:gap-10 items-center space-y-4 lg:space-y-0  p-4 transition-transform duration-300 ease-in-out `}>
       
       {/* Image Section */}
       <div className="w-full  lg:w-1/2 md:w-2/3 flex justify-center">

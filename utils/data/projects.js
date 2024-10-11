@@ -15,7 +15,7 @@ export const projects = [
         <p class="mt-4"><strong>Outcome:</strong> Ensured seamless, secure file sharing with high performance and user trust.</p>
       `,
       tools: "AWS Lambda, API Gateway, S3, Cognito, DynamoDB, React, Tailwind CSS, Python",
-      image: '/public/image/fileflow.png',
+      image: '/image/fileflow.png',
     },
     {
       id: 2,
@@ -32,7 +32,7 @@ export const projects = [
         <p class="mt-4"><strong>Outcome:</strong> Enhanced user experience with flexible AI responses and easy chat history management.</p>
       `,
       tools: "Meta AI API, Gemini API, Firestore, React, Tailwind CSS",
-      image: '/public/image/gptconnect.png',
+      image: '/image/gptconnect.png',
     },
     {
       id: 3,
@@ -49,7 +49,7 @@ export const projects = [
         <p class="mt-4"><strong>Result:</strong> Successfully deployed a monitoring solution that improved compliance with health protocols during the pandemic.</p>
       `,
       tools: "OpenCV, Keras, TensorFlow, YOLOv3, Caffe",
-      image: '/public/image/covidguard.png',
+      image: '/image/covidguard.png',
     },
   ];
   

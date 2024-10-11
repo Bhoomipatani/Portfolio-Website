@@ -33,7 +33,7 @@ function ExperienceCard({ experience }) {
         <p className="text-green font-semibold text-sm tracking-wide">{experience.duration}</p>
         <h2 className="text-2xl font-bold text-white mt-2">{experience.title}</h2>
         <p className="text-pink text-lg mt-1 font-medium">{experience.company}</p>
-        <div className="flex flex-wrap  lg:justify-center gap-2 mt-8 mb-4">
+        <div className="flex flex-wrap  justify-center gap-2 mt-8 mb-4">
           {experience.tools.split(",").map((tool, index) => (
             <span
               key={index}

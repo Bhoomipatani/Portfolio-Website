@@ -47,7 +47,7 @@ function ProjectCard({ project, index }) {
         </h2>
 
         {/* Tools/Tags Section */}
-        <div className="flex flex-wrap  lg:justify-start gap-2 mt-2 mb-4">
+        <div className="flex flex-wrap  justify-start gap-2 mt-2 mb-4">
           {project.tools.split(",").map((tool, index) => (
             <span
               key={index}

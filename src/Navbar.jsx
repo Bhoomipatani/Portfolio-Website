@@ -10,11 +10,14 @@ function Navbar() {
 
   return (
     <nav className="bg-transparent z-50 relative">
-      <div className="container mx-auto flex items-center justify-between p-5">
+      <div className="container mx-auto flex flex-rowitems-center justify-between p-5">
         {/* Logo */}
-        <a href="/" className="flex-shrink-0">
-          <img src={Logo} className="w-12 h-10" alt="Logo" />
-        </a>
+        <a href="/" className="flex items-center">
+  <img src={Logo} className="w-12 h-10" alt="Logo" />
+  <span className="text-white -ml-3 text-2xl mt-3">hoomi Patani</span>
+</a>
+
+
 
         {/* Toggle Button for Mobile */}
         <button

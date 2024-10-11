@@ -6,7 +6,7 @@ export default function Skills() {
     <div id="skills" className=" lg:my-16 mx-8 relative ">
         <div className="flex justify-center items-center my-5 lg:py-8">
             <span className="w-screen h-[2px] bg-button_color"></span>
-                <span className="bg-button_color w-fit text-white p-2 px-5 text-xl rounded-md">
+                <span className="bg-gradient-to-r from-violet-800 to-blue-500 w-fit text-white p-2 px-5 text-xl rounded-md">
                     Skills
                 </span>
             <span className="w-screen h-[2px] bg-button_color"></span>

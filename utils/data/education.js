@@ -11,6 +11,6 @@ export const educations = [
       title: 'University of Mumbai',
       company: "Bachelor of Engineering, Electronics and Telecommunication",
       duration: "(Aug-2018 - May 2022)",
-      description: "Completed coursework in key areas including Structured Programming, Object-Oriented Programming with Java, Data Compression and Encryption, Discrete Time Signal Processing, Computer Communication Networks, Image Processing and Machine Vision, Big Data Analytics, Management Information Systems, and Wireless Networks. Graduated with a GPA of 9.59/10.0.",
+      description: "Completed coursework in key areas including Structured Programming, Object-Oriented Programming with Java, Data Compression and Encryption, Discrete Time Signal Processing, Computer Communication Networks, Image Processing and Machine Vision, Big Data Analytics, Management Information Systems, and Wireless Networks. Graduated with a GPA of 4.0/4.0.",
   },
 ];

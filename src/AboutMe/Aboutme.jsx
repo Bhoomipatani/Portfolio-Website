@@ -13,12 +13,12 @@ function Aboutme() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-16 px-4 lg:px-56">
         <div className="lg:col-span-2 flex flex-col justify-center order-2 lg:order-1">
         <p 
-          className="text-gray-200 md:text-md lg:text-lg sm:text-sm mb-4 lg:mb-0" 
+          className="text-gray-200 text-justify mb-4 lg:mb-0" 
           dangerouslySetInnerHTML={{ __html: personalData.description }} 
         />
 
         </div>
-        <div className="lg:col-span-1 flex justify-center items-center order-1 lg:order-2">
+        <div className="lg:col-span-1 flex justify-center  items-center order-1 lg:order-2">
           <div className="w-auto h-60 lg:h-80 relative">
             <div className="w-[300px] h-80 lg:h-[300px] bg-bg_color_1 rounded-full absolute filter blur-3xl -z-10 opacity-80"></div>
             <img

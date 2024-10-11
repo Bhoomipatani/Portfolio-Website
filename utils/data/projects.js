@@ -46,7 +46,7 @@ export const projects = [
           <li><span class=" text-green">Social Distancing Monitoring:</span> Designed an algorithm using YOLOv3 and the Coco dataset to detect pedestrian spacing, issuing alerts for violations in real-time.</li>
           <li><span class=" text-green">Recognition:</span> Represented at Avishkar 2022 State Level Competition, securing a top 10 position and publishing a research paper.</li>
         </ul>
-        <p class="mt-4"><strong>Result:</strong> Successfully deployed a monitoring solution that improved compliance with health protocols during the pandemic.</p>
+        <p class="mt-4"><strong>Outcome:</strong> Successfully deployed a monitoring solution that improved compliance with health protocols during the pandemic.</p>
       `,
       tools: "OpenCV, Keras, TensorFlow, YOLOv3, Caffe",
       image: '/image/covidguard.png',

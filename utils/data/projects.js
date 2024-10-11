@@ -15,7 +15,7 @@ export const projects = [
         <p class="mt-4"><strong>Outcome:</strong> Ensured seamless, secure file sharing with high performance and user trust.</p>
       `,
       tools: "AWS Lambda, API Gateway, S3, Cognito, DynamoDB, React, Tailwind CSS, Python",
-      image: '/public/image/fileflow.png',
+      image: '/image/fileflow.png',
     },
     {
       id: 2,

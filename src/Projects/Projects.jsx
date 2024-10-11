@@ -39,7 +39,7 @@ function ProjectCard({ project, index }) {
       </div>
 
       {/* Content Section */}
-      <div className="lg:w-2/3 md:w-2/3 w-full text-justify  lg:text-left">
+      <div className="lg:w-2/3 md:w-2/3 w-full  lg:text-left">
         
         {/* Project Title */}
         <h2 className="text-2xl font-bold text-white mt-2 lg:mt-0">

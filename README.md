@@ -11,14 +11,14 @@ Explore the live version of my portfolio [here](https://bhoomipatani.netlify.app
 
 ## 📸 Screenshots
 
-### Project Section
-![Project Section](assets/project_section.png)
+### Hero Section
+![Hero Section](assets/hero_section.png)
 
 ### Experience Section
 ![Experience Section](assets/experience_section.png)
 
-### Hero Section
-![Hero Section](assets/hero_section.png)
+### Project Section
+![Project Section](assets/project_section.png)
 
 ---
 

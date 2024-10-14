@@ -30,8 +30,7 @@ Explore the live version of my portfolio [here](https://bhoomipatani.netlify.app
 - [Customizing Data](#customizing-data-📝)
 - [Tech Stack](#tech-stack-🛠️)
 - [Packages Used](#packages-used-📦)
-- [License](#license-📜)
-
+  
 ---
 
 ## Features 💡
@@ -117,12 +116,6 @@ export const personalData = {
 This project utilizes the following packages:
 
 - **react-icons**: For icons across the site.
-
----
-
-## License 📜
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 

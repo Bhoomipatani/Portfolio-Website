@@ -1,7 +1,7 @@
 
 # 🌐 Bhoomi Patani | Portfolio Website
 
-Welcome to the source code for [bhoomipatani.netlify.app](https://bhoomipatani.netlify.app)! This portfolio website is designed to showcase my journey in computer science, highlighting my technical skills, projects, and professional experience in DevOps and full-stack development. Built with responsive design and smooth navigation, this website provides a comprehensive look at my background and accomplishments.
+Welcome to the source code for [bhoomipatani.netlify.app](https://bhoomipatani.netlify.app)! This portfolio website showcases my journey in computer science, highlighting my technical skills, projects, and professional experience in DevOps and full-stack development. Built with a responsive design and smooth navigation, it provides a comprehensive look at my background and accomplishments.
 
 ## 🖥️ Live Demo
 
